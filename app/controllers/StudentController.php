@@ -5,18 +5,18 @@ class StudentController
 {
     public function index()
     {
-        require_once '.\app\views\students\index.php';
+        require_once '../app/views/students/index.php';
     }
 
     public function create()
     {
-        require_once '.\app\views\students\cerate.php';
+        require_once '../app/views/students/cerate.php';
     }
 
 
     public function show(string $id)
     {
-        require_once '.\app\views\students\show.php';
+        require_once '../app/views/students/show.php';
     }
 
 }

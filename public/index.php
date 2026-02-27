@@ -1,5 +1,5 @@
 <?php
-require_once './app/core/Router.php'; //panggil file
+require_once '../app/core/Router.php'; //panggil file
 
 use App\Core\Router;
 

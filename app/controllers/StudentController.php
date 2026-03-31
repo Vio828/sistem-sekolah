@@ -1,7 +1,7 @@
 <?php
 namespace App\Controllers;
 
-class StudentController 
+class StudentController
 {
     public function index()
     {
@@ -10,7 +10,7 @@ class StudentController
 
     public function create()
     {
-        require_once '../app/views/students/cerate.php';
+        require_once '../app/views/students/create.php';
     }
 
 

@@ -2,7 +2,7 @@
 namespace App\Core;
 require_once '../app/config/app.php';
 
-class Databse 
+class Database 
 {
 
     protected $connection;
